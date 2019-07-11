@@ -1,24 +1,15 @@
-# README
+## Interacting with a Rails App with RestClient
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project, I interact with a `rails` application from the command line by sending `HTTP` requests manually. By building a very simple app and then a simple script which uses the `rest-client` gem, I send some requests and examine the server output.
 
-Things you may want to cover:
+### Technology:
 
-* Ruby version
+* Ruby 2.4.0
+* Rails MVC (5.2.3)
+* RestClient (2.0.2) / HTTP
 
-* System dependencies
+### How to Run:
+* clone the repo 
+* start rails server `$ rails server`
+* execute the rest client script `$ ruby app/script/rest_ping.rb`
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
